@@ -461,6 +461,8 @@ Translations of the guide are available in the following languages:
   ```
 
 * <a name="consistent-multi-line-chains"></a>
+    **ThinkAlike** has determined that **Option B** is the style that should be used.
+
     Adopt a consistent multi-line method chaining style. There are two
     popular styles in the Ruby community, both of which are considered
     good - leading `.` (Option A) and trailing `.` (Option B).
@@ -492,6 +494,7 @@ Translations of the guide are available in the following languages:
     one.two.three.
       four
     ```
+    
 
   A discussion on the merits of both alternative styles can be found
   [here](https://github.com/bbatsov/ruby-style-guide/pull/176).
