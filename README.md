@@ -228,20 +228,15 @@ Translations of the guide are available in the following languages:
 
   `{` and `}` deserve a bit of clarification, since they are used
   for block and hash literals, as well as embedded expressions in
-  strings. For hash literals two styles are considered acceptable.
+  strings. For hash literals one style is considered acceptable.
 
   ```Ruby
   # good - space after { and before }
   { one: 1, two: 2 }
 
-  # good - no space after { and before }
+  # bad - no space after { and before }
   {one: 1, two: 2}
   ```
-
-  The first variant is slightly more readable (and arguably more
-  popular in the Ruby community in general). The second variant has
-  the advantage of adding visual difference between block and hash
-  literals. Whichever one you pick - apply it consistently.
 
   As far as embedded expressions go, there are also two acceptable
   options:
